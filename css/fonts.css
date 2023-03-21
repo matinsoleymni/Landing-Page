@@ -1,13 +1,13 @@
 @font-face {
     font-family: libram;
-    src: url(../font/libra/static/LibreFranklin-Medium.ttf);
+    src: url(../fonts/libra/static/LibreFranklin-Medium.ttf);
 }
 
 @font-face {
     font-family: librab;
-    src: url(../font/libra/static/LibreFranklin-Bold.ttf);
+    src: url(../fonts/libra/static/LibreFranklin-Bold.ttf);
 }
 @font-face {
     font-family: libral;
-    src: url(../font/libra/static/LibreFranklin-Light.ttf);
+    src: url(../fonts/libra/static/LibreFranklin-Light.ttf);
 }

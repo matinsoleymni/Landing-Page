@@ -133,6 +133,14 @@
             </div>
     </main>
 
+    <form class="contact__form" action="./controllers/sendMessageController.php" method="post">
+        <h3>Send Message For Me</h3>
+        <input type="text" name="name" id="name" placeholder="Enter Name: " required>
+        <input type="email" name="email" id="email" placeholder="Enter Email: " required>
+        <textarea name="message" id="textm" cols="30" rows="10" placeholder="Enter Message: " required></textarea>
+        <button id="Submit-contact-form">Submit & Send</button>
+    </form>
+
     <footer id="footer">
         <div class="footer__continer">
             <div class="footer__rows">
@@ -152,5 +160,8 @@
     </footer>
 
     <script src="./js/app.js"></script>
+    <?php 
+        echo "<script>alert('Your Message Sent :)')</script>";
+    ?>
 </body>
 </html>

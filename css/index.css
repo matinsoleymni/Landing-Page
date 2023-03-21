@@ -95,6 +95,43 @@ nav {
 }
 /* END Nav Bar */
 
+.contact__form {
+    font-family: librab;
+    font-size: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    gap: 20px;
+    flex-direction: column;
+    position: absolute;
+    top: 170px;
+    left: 500px;
+    color: #ffff;
+    background-color: rgb(255, 166, 78);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.contact__form input , .contact__form textarea {
+    padding: 8px;
+    border-radius: 15px;
+    font-family: librab;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+}
+
+.contact__form button {
+    padding: 7px 15px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+}
+
 .header__tit {
     color: #ffff;
     padding-top: 180px;
