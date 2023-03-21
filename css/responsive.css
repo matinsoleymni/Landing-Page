@@ -1,0 +1,98 @@
+@media screen and (max-width:900px) {
+    html , body {
+        width: 100%;
+        height: 100%;
+    }
+    nav {
+        display: inline-flex;
+    }
+    .main__about {
+        padding-top: 93px;
+        padding-left: 18px;
+    }
+    .main__about p {
+        padding: 10px 0px;
+    }
+    .skills__main-container {
+        flex-direction: column;
+    }
+    .header__tit {
+        padding-top: 169px;
+        padding-left: 18px;
+    }
+    .skills__title {
+        padding-top: 96px;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    .skills__img{
+        text-align: center;
+        padding: 15px 0px;
+    }
+    .skills__img img {
+        border-radius: 10px;
+        width: 300px;
+    }
+    .item__title {
+        left: 156px;
+        padding-top: 490px;
+        font-size: 90px;
+    }
+    .footer__continer {
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .skills__main-container{
+        gap: 50px;
+        align-items: center;
+    }
+    .nav__right {
+        display: none;
+    }
+    .nav__left{
+        padding-left: 86px;
+    }
+    .item__lang {
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+    }
+    .threec {
+        flex-wrap: wrap;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .threec div {
+        display: inline-block;
+        align-items: center;
+    }
+    .threec div p {
+        display: inline-block;
+    }
+    .skills__item {
+        width: 60%;
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:660px){
+    .item__title {
+        left: 122px;
+        padding-top: 490px;
+        font-size: 90px;
+    }
+}
+
+
+@media screen and (max-width:450px){
+    .item__title {
+        left: 43px;
+        padding-top: 513px;
+        font-size: 70px;
+    }
+}
